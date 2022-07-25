@@ -319,6 +319,7 @@ cc_library(
     hdrs = glob(["runtime/Cpp/runtime/src/**/*.h"]),
     includes = ["runtime/Cpp/runtime/src"],
     visibility = ["//visibility:public"],
+    copts = ["-Wno-error"],
 )
 """
 
